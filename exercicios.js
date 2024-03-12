@@ -46,3 +46,12 @@ const quemEhMaior = (num1,num2,num3) =>{
 }
 
 console.log(quemEhMaior(num1,num2,num3));
+
+const base = 5;
+const potencia = 5;
+
+const calculaPotencia = (base,potencia) =>{
+    return Math.pow(base,potencia);
+}
+
+console.log(calculaPotencia(base,potencia));
