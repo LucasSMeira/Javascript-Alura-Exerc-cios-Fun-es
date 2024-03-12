@@ -17,3 +17,16 @@ const verificaIdade = (idade) =>{
 }
 
 console.log(verificaIdade(idade));
+
+const palavra = 'arara';
+
+const ehPalindrome = (palavra) =>{
+    const reverso = palavra.split('').reverse().join('');
+    if (palavra === reverso) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log(ehPalindrome(palavra));
